@@ -264,6 +264,24 @@ export const education = [
 
 export const projects = [
   {
+    id: 1,
+    title: "The Recycle store - Ecommerce Website",
+    date: "June 2024 - Present",
+    description:
+      "Designing and developing Waste to Wonder! We transform unwanted plastics into cool, eco-friendly products. Shop our website for unique finds, reduce plastic waste, and create positive change together!",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "NodeMailer",
+    ],
+    category: "web app",
+  },
+  {
     id: 9,
     title: "Bank Management System",
     date: "Jun 2023 - Jul 2023",
@@ -280,58 +298,25 @@ export const projects = [
       "SQL",
       "Java Web Server",
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
+    category: "android app",
+    github: "https://github.com/Sahil110102/BankManagementSystem",
     webapp: "https://trackify.duckdns.org",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Amazon UI",
+    date: "Dec 2023 - jan 2024",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Single-page React app with Amazon-inspired UI (header, navigation, listings, etc.)",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-22%20235632.png?alt=media&token=cb34f263-ebd3-4439-a97b-825c1177f6be",
+    tags: ["React Js", "HTML", "CSS", "JavaScript"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/Sahil110102/Amazon-UI",
+    webapp: "https://leoamazonclone.netlify.app/",
+    
   },
-  {
-    id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
+  /*{
     id: 2,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
@@ -367,7 +352,7 @@ export const projects = [
     image:
       "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
+    category: "Web App",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
@@ -383,45 +368,45 @@ export const projects = [
     category: "android app",
     github: "https://github.com/rishavchanda/Job-finder-App",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
+  },*/
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Tic-Tac-Toe",
+    date: "May 2024",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Classic fun, reimagined! Built a tic-tac-toe game to challenge your friends. Play Xs and Os, strategize for victory, and reign supreme on the board.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-23%20121152.png?alt=media&token=515a8c17-2542-46f7-8526-11429b413c38",
+    tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/Sahil110102/Tic-Tac-Toe",
+    webapp: "https://leotictactoe.netlify.app/",
   },
   {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    title: "Address Updater",
+    date: "March 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      " Simplify, move, manage: Update and organize all your addresses in one place. Add, edit, or delete with ease - never miss important address document again.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-23%20114202.png?alt=media&token=4c790a4a-3744-4eb4-98bd-b4aabcc98815",
+    tags: ["HTML", "CSS", "Firebase", "JavaScript"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/Sahil110102/Address-Updater",
+    webapp: "https://leoaddressbook.netlify.app/",
   },
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "To-Do APP",
+    date: "September 2021",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "A simple To-Do Web App that lets you manage your trask efficiently and keeps atrack of your note. You can Create, Delete and Edit the required task .",
     image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-23%20111648.png?alt=media&token=4cc549ce-aaed-478d-910b-d40bba1ec49e",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    github: "https://github.com/Sahil110102/ToDoList2",
+    webapp: "https://leotask.netlify.app/",
   },
   {
     id: 7,
@@ -430,24 +415,35 @@ export const projects = [
     description:
       "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-23%20125301.png?alt=media&token=64f56c3d-9ed2-45de-9608-e56815193ef2",
+    tags: ["HTML", "CSS", "JavaScript", "Google Auth"],
+    category: "Web app",
+    github: "https://github.com/Sahil110102/Quiz-",
+    webapp: "https://leoquizapp.netlify.app/",
   },
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    title: "Spam Mail Detection",
+    date: "September 2023",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "Built a spam filter! Trained a model on Kaggle's email data to identify spam messages. Analyzes emails to sort legit messages from the junk.",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Spam_Mail_Detection-Colaboratory-GoogleChrome2023-09-0723-09-19-ezgif.com-video-to-gif-converter.gif?alt=media&token=9da6b4c4-f404-4060-ad67-c86061ac2830",
+    tags: ["Python", "Kaggle", "TensorFlow", "Machine Learning", "Data Analysis"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/Sahil110102/Email_Spam_Detection",
+  },
+  {
+    id: 8,
+    title: "Global Terrorism Anaylsis",
+    date: "October 2023",
+    description:
+      "Unveiling terror trends: Analyzed global terrorism data from Kaggle to pinpoint areas with the highest activity. Explores regional patterns and provides insights for informed action.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-06-23%20121459.png?alt=media&token=4eab011f-c1d8-402b-ac81-6deb2269af77",
+    tags: ["Python", "Kaggle", "TensorFlow", "Machine Learning", "Data Analysis"],
+    category: "machine learning",
+    github: "https://github.com/Sahil110102/Exploratory_Data_Analysis-Terrorism",
   },
 ];
 
