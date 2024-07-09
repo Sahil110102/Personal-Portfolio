@@ -348,7 +348,7 @@ export const projects = [
     title: "Client/Server Chat Application",
     date: "July 2024 - July 2024",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "You've built a real-time chat application in Java that utilizes web sockets! This allows for two-way communication between a web browser client and your server, enabling messages to be instantly sent and received without needing to refresh the page. This creates a more fluid and interactive chat experience.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-07-09%20231804.png?alt=media&token=67ed25ab-95bd-4fe1-aaa2-fa1300a05aac",
     tags: ["Java", "Jsp", "Web Socket", "JavaAWT", "Netbeans"],
