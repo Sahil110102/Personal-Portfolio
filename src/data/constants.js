@@ -342,7 +342,7 @@ export const projects = [
         github: "https://github.com/upasana0710",
       },
     ],
-  },
+  },*/
  {
     id: 3,
     title: "Client/Server Chat Application",
@@ -356,7 +356,7 @@ export const projects = [
     github: "https://github.com/Sahil110102/Chat-Application",
 
   },
-  {
+  /*{
     id: 10,
     title: "Job Finding App",
     date: "Jun 2023 - Jul 2023",
