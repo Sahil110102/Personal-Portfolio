@@ -268,16 +268,18 @@ export const projects = [
     title: "The Recycle store - Ecommerce Website",
     date: "June 2024 - Present",
     description:
-      "Designing and developing Waste to Wonder! We transform unwanted plastics into cool, eco-friendly products. Shop our website for unique finds, reduce plastic waste, and create positive change together!",
+      "The Recycle Store rescues plastic and unwanted items, transforming them into cool, upcycled products sold online. Reduce waste, embrace sustainable style!",
     image:
-      "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-4ef12.appspot.com/o/Screenshot%202024-07-10%20135404.png?alt=media&token=03cc6711-2c7b-427e-b70f-d711c674608a",
     tags: [
       "React Js",
       "MongoDb",
       "Node Js",
       "Express Js",
       "Redux",
-      "NodeMailer",
+      "HTML",
+      "CSS",
+      "JavaScript",
     ],
     category: "web app",
   },
